@@ -10,7 +10,7 @@ dfu-util -d 2b04:d006 -a 0 -s 0x8020000 -D system-part1-0.5.2-photon.bin
 dfu-util -d 2b04:d006 -a 0 -s 0x8060000:leave -D system-part2-0.5.2-photon.bin
  ```
 
-* Flash tinker:
+* Flash tinker: (only for use with Tinker app, not used in LED Cubetube)
 ```
 particle flash --usb tinker
 ```
