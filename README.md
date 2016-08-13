@@ -2,6 +2,9 @@
 
 # Flashing photon firmware:
 
+To use a GUI instead of command line, you can get the [Particle Firmware Manager utility](
+https://docs.particle.io/guide/tools-and-features/firmware-manager/photon/#getting-started)
+
 * Use dfu-util:
   * Fetch firmware from: https://github.com/spark/firmware/releases/tag/v0.5.2
 
